@@ -68,7 +68,7 @@ endif()
 
 ExternalProject_Add(json
                     PREFIX "external"
-                    URL "https://github.com/nlohmann/json/releases/download/v3.1.2/json.hpp"
+                    URL "https://github.com/nlohmann/json/releases/download/v3.2.0/json.hpp"
                     DOWNLOAD_NO_EXTRACT 1
                     CONFIGURE_COMMAND ""
                     BUILD_COMMAND ""
@@ -141,7 +141,7 @@ set(CPPTOML_INCLUDE_DIRS "${SOURCE_DIR}/include")
 
 ExternalProject_Add(spdlog
                     PREFIX "external"
-                    URL "https://github.com/gabime/spdlog/archive/v0.17.0.tar.gz"
+                    URL "https://github.com/gabime/spdlog/archive/v1.1.0.tar.gz"
                     CONFIGURE_COMMAND ""
                     BUILD_COMMAND ""
                     INSTALL_COMMAND "")
